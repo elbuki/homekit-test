@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D074A0A72A465D8E007EF37C /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074A0A62A465D8E007EF37C /* ServicesView.swift */; };
+		D074A0A92A465FF4007EF37C /* CharacteristicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074A0A82A465FF4007EF37C /* CharacteristicsView.swift */; };
+		D089A0B42A450F9100E14784 /* HomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089A0B32A450F9100E14784 /* HomeStore.swift */; };
+		D089A0B62A45157600E14784 /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089A0B52A45157600E14784 /* AccessoryView.swift */; };
 		D0CD8F042A40DCA3008746F9 /* HomeKitTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD8F032A40DCA3008746F9 /* HomeKitTestApp.swift */; };
-		D0CD8F062A40DCA3008746F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD8F052A40DCA3008746F9 /* ContentView.swift */; };
+		D0CD8F062A40DCA3008746F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD8F052A40DCA3008746F9 /* HomeView.swift */; };
 		D0CD8F082A40DCA4008746F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CD8F072A40DCA4008746F9 /* Assets.xcassets */; };
 		D0CD8F0B2A40DCA4008746F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CD8F0A2A40DCA4008746F9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D074A0A62A465D8E007EF37C /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		D074A0A82A465FF4007EF37C /* CharacteristicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicsView.swift; sourceTree = "<group>"; };
+		D089A0B32A450F9100E14784 /* HomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
+		D089A0B52A45157600E14784 /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
 		D0CD8F002A40DCA3008746F9 /* HomeKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CD8F032A40DCA3008746F9 /* HomeKitTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeKitTestApp.swift; sourceTree = "<group>"; };
-		D0CD8F052A40DCA3008746F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0CD8F052A40DCA3008746F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D0CD8F072A40DCA4008746F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0CD8F0A2A40DCA4008746F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0CD8F112A40DD27008746F9 /* HomeKitTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeKitTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		D0CD8F022A40DCA3008746F9 /* HomeKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				D0CD8F112A40DD27008746F9 /* HomeKitTest.entitlements */,
 				D0CD8F032A40DCA3008746F9 /* HomeKitTestApp.swift */,
-				D0CD8F052A40DCA3008746F9 /* ContentView.swift */,
+				D0CD8F052A40DCA3008746F9 /* HomeView.swift */,
 				D0CD8F072A40DCA4008746F9 /* Assets.xcassets */,
 				D0CD8F092A40DCA4008746F9 /* Preview Content */,
+				D089A0B32A450F9100E14784 /* HomeStore.swift */,
+				D089A0B52A45157600E14784 /* AccessoryView.swift */,
+				D074A0A62A465D8E007EF37C /* ServicesView.swift */,
+				D074A0A82A465FF4007EF37C /* CharacteristicsView.swift */,
 			);
 			path = HomeKitTest;
 			sourceTree = "<group>";
@@ -137,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CD8F062A40DCA3008746F9 /* ContentView.swift in Sources */,
+				D074A0A72A465D8E007EF37C /* ServicesView.swift in Sources */,
+				D074A0A92A465FF4007EF37C /* CharacteristicsView.swift in Sources */,
+				D0CD8F062A40DCA3008746F9 /* HomeView.swift in Sources */,
+				D089A0B62A45157600E14784 /* AccessoryView.swift in Sources */,
+				D089A0B42A450F9100E14784 /* HomeStore.swift in Sources */,
 				D0CD8F042A40DCA3008746F9 /* HomeKitTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,12 +282,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeKitTest/HomeKitTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeKitTest/Preview Content\"";
 				DEVELOPMENT_TEAM = R2D8G8MDYK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "Configuring smart home accessories";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +313,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeKitTest/HomeKitTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeKitTest/Preview Content\"";
 				DEVELOPMENT_TEAM = R2D8G8MDYK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "Configuring smart home accessories";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
